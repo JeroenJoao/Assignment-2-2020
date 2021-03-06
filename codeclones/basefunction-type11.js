@@ -4,11 +4,9 @@ function findNumber(a, key) {
     var index = 0;
     while(index < a.length) {
         if (a[index] == key) {
-            return key;
+            return index;
         }
         index++;
     }
     return -1;
 }
-
-find([1,2,3,4,5,6], 6);
